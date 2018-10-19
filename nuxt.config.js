@@ -46,6 +46,13 @@ module.exports = {
       let routes = posts.map(post => `/post/${post.id}`)
       callback(null, routes)
     }
+  },
+  modules: ['@nuxtjs/apollo'],
+
+  apollo: {
+    clientConfigs: {
+      default: '~/apollo/client-configs/default.js'
+    }
   }
 }
 
