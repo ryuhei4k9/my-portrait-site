@@ -1,0 +1,11 @@
+{
+  posts {
+    id
+    title
+    content
+    createdAt
+    thumbnail {
+      url
+    }
+  }
+}

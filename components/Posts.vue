@@ -7,18 +7,18 @@
       <div class="columns is-multiline">
         <div class="column is-half" v-for="post in posts" :key="post.id">
           <div class="card">
-           <header class="card-header">
+            <header class="card-header">
             <p class="card-header-title">
               {{ post.title }}
             </p>
           </header>
           <div class="card-content">
             <div class="content">
-              {{ post.summary }}
+              {{ post.title }}
               <br>
               <small>
-                by <strong>{{ post.author}}</strong> 
-                \\ {{ post.published }}
+                by <strong>{{ post.title }}</strong> 
+                \\ {{ post.createdAt }}
               </small>
             </div>
           </div>
@@ -36,12 +36,20 @@
 </template>
 
 <script>
-  import posts from '~/posts.json'
+  import posts from '~/apollo/queries/posts'
 
   export default {
     name: 'posts',
     data () {
-      return { posts }
+      return {
+        posts: {}
+      }
+    },
+    apollo: {
+      posts: {
+        prefetch: true,
+        query: posts
+      }
     }
   }
 </script>

@@ -4,7 +4,7 @@
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            Welcome to the ryuhei4k9 portrait
+            Welcome to the ryuhei4k9 こんにちわ
           </h1>
           <h2 class="subtitle">
             Hope you find something you like.
@@ -13,7 +13,7 @@
       </div>
     </section>
 
-    <posts />
+    <posts/>
   </div>
 </template>
 
