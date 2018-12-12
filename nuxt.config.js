@@ -41,11 +41,10 @@ module.exports = {
     }
   },
   generate: {
-    routes(callback) {
-      const posts = require('./posts.json')
-      let routes = posts.map(post => `/post/${post.id}`)
-      callback(null, routes)
-    }
+    routes: [
+      '/post/cjndxgaozqo0t0993afao8686',
+      '/post/cjnh5f8ygyjf00993qq0uyqva'
+    ]
   },
   modules: ['@nuxtjs/apollo'],
 
