@@ -46,8 +46,10 @@ module.exports = {
       '/post/cjnh5f8ygyjf00993qq0uyqva'
     ]
   },
-  modules: ['@nuxtjs/apollo'],
-
+  modules: [
+    '@nuxtjs/markdownit',
+    '@nuxtjs/apollo'
+  ],
   apollo: {
     clientConfigs: {
       default: '~/apollo/client-configs/default.js'
