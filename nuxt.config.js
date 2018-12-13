@@ -41,10 +41,6 @@ module.exports = {
     }
   },
   generate: {
-    routes: [
-      '/post/cjndxgaozqo0t0993afao8686',
-      '/post/cjnh5f8ygyjf00993qq0uyqva'
-    ]
   },
   modules: [
     '@nuxtjs/markdownit',
