@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Ruby",
+        "description": "一番好きな言語。"
+    },
+    {
+        "id": 2,
+        "name": "Vue.js",
+        "description": "最近好きです。"
+    },
+    {
+        "id": 3,
+        "name": "Swift",
+        "description": "iOSアプリ開発してます。"
+    }
+]

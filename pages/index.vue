@@ -1,28 +1,30 @@
 <template>
   <div>
-      <section class="hero is-medium is-primary is-bold">
+    <section class="hero is-medium is-primary is-bold">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            Welcome to the ryuhei4k9 こんにちわ
+            Ryuhei Shikanai's Portfolio
           </h1>
           <h2 class="subtitle">
-            Hope you find something you like.
+            Web & Application  Engineer
           </h2>
         </div>
       </div>
     </section>
-
-    <posts/>
+    <about-me/>
+    <skills/>
   </div>
 </template>
 
 <script>
-  import Posts from '~/components/Posts.vue'
+  import AboutMe from '~/components/AboutMe.vue'
+  import Skills from '~/components/Skills.vue'
 
   export default {
     components: {
-      Posts
+      AboutMe,
+      Skills
     },
     head: {
       title: 'Home'

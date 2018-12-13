@@ -1,5 +1,5 @@
 query {
-  posts {
+  posts(orderBy: createdAt_DESC) {
     id
     title
     content

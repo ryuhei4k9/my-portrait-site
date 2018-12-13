@@ -1,8 +1,8 @@
 <template>
   <section class="main-content">
     <div class="container">
-      <h1 class="title has-text-centered">
-        Recent Posts.
+      <h1 class="title">
+        Blog
       </h1>
       <div class="columns is-multiline">
         <div class="column is-half" v-for="post in posts" :key="post.id">
