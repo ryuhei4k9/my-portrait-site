@@ -3,8 +3,8 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'my-portrait-site',
-    titleTemplate: '%s | ryuhei4k9 portrait',
+    title: 'Ryuhei Shikanai\'s Portfolio',
+    titleTemplate: '%s | Ryuhei Shikanai\'s Portfolio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
